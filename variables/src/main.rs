@@ -6,9 +6,10 @@ fn main() {
     x = 20;
     println!("x is {}", x);
 
-    let mut x: u8 = 255;
-    // x = x + 1 won't work
+    let mut x: u8 = 245;
+    x = x + 1; 
     println!("x is {}", x);
 
-
+    let x: f32 = 10.09;
+    println!("x is {}", x);
 }
